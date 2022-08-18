@@ -1,0 +1,29 @@
+body{
+    font-family: 'Tajawal';
+}
+
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(90, 167,  183, .7) , rgba(90, 167, 183, .7)), url(../images/mountains.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 150px;
+}
+.navbar{
+    box-shadow: 0 1px 6px #333;
+}
+.nav-link{
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+.nav-link:hover{
+    color: rgb(3, 43, 51);
+}
+.nav-link.active{
+    color: rgb(74, 79, 80) !important;
+}
+.author img{
+    margin-top: -70px;
+
+}
